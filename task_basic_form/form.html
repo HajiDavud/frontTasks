@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Basic Form</title>
+</head>
+<body>
+	<style type="text/css">
+		label{
+			font-size: 22px;
+		}
+		.div1{
+			padding-top: 30px;
+			padding-left: 40%;
+		}
+		button{
+			border: 30px;
+			background: blue;
+			font-size: 32px;
+			border-radius: 50%;
+		}
+		.div1 #input{
+			border: none;
+			background: blue;
+			font-size: 15px;
+			border-radius: 18px;
+			padding: 10px;
+		}
+	</style>
+	<div class="div1">
+		<form action="/action_page.php" method="get" target="_blank">
+		  <label for="name">First name:</label><br>
+		  <input type="text" id="name" name="name"><br><br>
+		  <label for="name">Last name:</label><br>
+		  <input type="text" id="name" name="name"><br><br>
+
+		  <label for="name">Email Adress:</label><br>
+		  <input type="text" id="name" name="name"><br><br>
+
+		  <label for="name">Password:</label><br>
+		  <input type="password" id="name" name="name" placeholder="Must be at least 8 characters"><br><br>
+
+		  
+  		  <input id="input" type="submit" formmethod="post" value="Register">
+		</form>
+	</div>
+</body>
+</html>
